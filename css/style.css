@@ -32,6 +32,7 @@ header{
     background-color: #222831;
     justify-content: space-around;
     padding: 1rem 0;
+    align-items: center;
 }
 
 .logo{
@@ -86,7 +87,7 @@ header{
     
     header{
         height: 48px;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0 28px;
     }
 
@@ -96,12 +97,14 @@ header{
 
     .logo img{
         width: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
     }
 
     .header__toggle{
         display: inline;
         color: #eeee;
-        font-size: 24px;
+        font-size: 33px;
     }
     .header__close{
         position: absolute;
